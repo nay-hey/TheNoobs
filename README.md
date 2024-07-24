@@ -16,10 +16,11 @@ We employed the Vision Transformer (ViT) model to achieve the classification. Th
 
 ## Project Structure
 
-- **`train_and_test.ipynb`**: An IPython notebook that includes code for training and testing the model.
-- **`report.md`**: A detailed report outlining the project objectives, methodology, results, and conclusions.
-- **`contributions.md`**: Document detailing the contributions of each team member.
-- **`predictions.csv`**: CSV file containing the model's predictions on the test dataset.
+- **`ViT.ipynb`**: IPython notebook containing code for training the ViT model.
+- **`predictions.ipynb`**: IPython notebook for evaluating the model's performance and generating predictions.
+- **`report.txt`**: Detailed report outlining the project’s objectives, methodology, results, and conclusions.
+- **`contributions.txt`**: Document detailing the contributions of each team member.
+- **`predictions.csv`**: CSV file with the model's predictions on the test dataset.
 
 ## Prerequisites
 
@@ -29,6 +30,26 @@ To run this project, you need to install the following packages:
 pip install transformers datasets torch torchvision accelerate
 pip install transformers[torch] accelerate -U
 ````
+## Installation
+
+### Set Up the Environment
+
+1. Clone the repository.
+2. Install the required dependencies using the commands provided above.
+
+### Train the Model
+
+1. Execute the training code in `ViT.ipynb` to train the ViT model on the training dataset.
+2. Save the trained model.
+
+### Evaluate and Test
+
+1. After training, evaluate the model's performance using the test dataset with the notebook `predictions.ipynb`.
+2. Add your model path to the following variable in `predictions.ipynb`:
+    ```python
+    model_path = 'path_to_your_saved_model'
+    ```
+3. The results and predictions will be saved in `predictions.csv`.
 
 ## Acknowledgments
 
