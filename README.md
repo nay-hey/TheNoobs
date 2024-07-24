@@ -28,9 +28,3 @@ After training, evaluate the model's performance using the test dataset. The res
 
 License
 This project is licensed under the MIT License.
-
-Contact
-For any inquiries or further information, please contact:
-
-Neha Gaonkar: email@example.com
-Aum Thaker: email@example.com
