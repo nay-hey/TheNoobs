@@ -19,7 +19,7 @@ We employed the Vision Transformer (ViT) model to achieve the classification. Th
 - **`ViT.ipynb`**: IPython notebook containing code for training the ViT model.
 - **`predictions.ipynb`**: IPython notebook for evaluating the model's performance and generating predictions.
 - **`Report.pdf`**: Detailed report outlining the project’s objectives, methodology, results, and conclusions.
-- **`Contributions.pdf`**: Document detailing the contributions of each team member.
+- **`Contribution.pdf`**: Document detailing the contributions of each team member.
 - **`THE NOOBS_submission.csv`**: CSV file with the model's predictions on the test dataset.
 
 ## Prerequisites
