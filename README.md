@@ -21,6 +21,15 @@ We employed the Vision Transformer (ViT) model to achieve the classification. Th
 - **`contributions.md`**: Document detailing the contributions of each team member.
 - **`predictions.csv`**: CSV file containing the model's predictions on the test dataset.
 
+## Prerequisites
+
+To run this project, you need to install the following packages:
+
+```bash
+pip install transformers datasets torch torchvision accelerate
+pip install transformers[torch] accelerate -U
+````
+
 ## Acknowledgments
 
 We would like to thank the Auburn Waves, SOI 2024 organizers for providing the dataset and the opportunity to participate in this competition.
