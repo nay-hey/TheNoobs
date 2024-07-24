@@ -26,8 +26,3 @@ We employed the Vision Transformer (ViT) model to achieve the classification. Th
 ## Acknowledgments
 
 We would like to thank the Auburn Waves, SOI 2024 organizers for providing the dataset and the opportunity to participate in this competition.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
