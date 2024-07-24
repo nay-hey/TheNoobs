@@ -9,8 +9,8 @@ This project was developed as part of the Auburn Waves, SOI 2024 competition. Th
 ## Dataset
 
 The dataset provided includes:
-- **Training Images**: 6201 images
-- **Test Images**: 2000 images
+- **Training Images**: 6201 images available at aum27/mars-terrain
+- **Test Images**: 2000 images available at aum27/mars-terrain-test
 
 ## Model
 
